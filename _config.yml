@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            SRLM
+tagline:          'Programming and Hardware'
+description:      'Written by srlm@srlmproductions'
+url:              http://srlmproductions.com
+
+author:
+  name:           'Cody Lewis'
+  url:            https://github.com/srlmproductions
+
+paginate:         1
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/srlmproductions
