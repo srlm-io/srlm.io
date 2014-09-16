@@ -8,17 +8,15 @@ permalink:        pretty
 # Setup
 title:            SRLM
 tagline:          'Programming and Hardware'
-description:      'Written by srlm@srlmproductions'
 url:              http://srlmproductions.com
-
-author:
-  name:           'Cody Lewis'
-  url:            https://github.com/srlmproductions
-
 paginate:         1
+baseurl:          /
+author:
+  name:           Cody Lewis
+  url:            https://github.com/srlmproductions.com
+  email:          srlm@srlmproductions.com
 
 # Custom vars
 version:          1.0.0
-
 github:
   repo:           https://github.com/srlmproductions
