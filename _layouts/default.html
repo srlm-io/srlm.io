@@ -7,10 +7,15 @@
 
     <div class="container content">
       <div class="masthead">
-        <h3 class="masthead-title">
-          <a href="{{ site.baseurl }}" title="Home"><img src="{{ site.baseurl }}public/avatar_banner_small.jpg"></img>{{ site.title }}</a>
-          <small>{{ site.tagline }}</small>
-        </h3>
+          <a href="{{ site.baseurl }}" title="Home"><img src="{{ site.baseurl }}public/avatar_banner_small.jpg"></img></a>
+          <div class="header">
+            <a href="{{ site.baseurl }}" title="Home">
+            <h2 class="masthead-title">{{ site.title }} <small>{{ site.tagline }}</small></h2>
+            </a>
+            <div class="nav">
+                <a href="{{ site.baseurl }}about" title="About">About Me</a>
+            </div>
+        </div>
       </div>
 
       {{ content }}

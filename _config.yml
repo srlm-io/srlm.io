@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         redcarpet
-pygments:         true
+highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
@@ -8,13 +8,13 @@ permalink:        pretty
 # Setup
 title:            SRLM
 tagline:          'Programming and Hardware'
-url:              http://srlmproductions.com
-paginate:         1
+url:              http://srlm.io
+paginate:         4
 baseurl:          /
 author:
   name:           Cody Lewis
-  url:            https://github.com/srlmproductions.com
-  email:          srlm@srlmproductions.com
+  url:            https://github.com/srlmproductions
+  email:          srlm@srlm.io
 
 # Custom vars
 version:          1.0.0
