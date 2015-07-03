@@ -1,38 +1,43 @@
 /* Copied from http://jsfiddle.net/skip405/NfeVh/4/ */
 
 .header {
-    text-align: justify; 
+    text-align: justify;
 
-     /* IE special */  
-    width: 100%;  
+    /* IE special */
+    width: 100%;
     -ms-text-justify: distribute-all-lines;
     text-justify: distribute-all-lines;
 }
- .header:after{
+
+.header:after {
     content: '';
     display: inline-block;
     width: 100%;
     height: 0;
-    font-size:0;
-    line-height:0;
+    font-size: 0;
+    line-height: 0;
 }
 
-h1,h2,h3,h4,h5 {
+h1, h2, h3, h4, h5 {
     display: inline-block;
-    margin-top: 0.321em; 
+    margin-top: 0.321em;
 
-    /* ie 7*/ 
+    /* ie 7*/
     *display: inline;
     *zoom: 1;
-    *text-align: left; 
+    *text-align: left;
 }
 
 .nav {
     display: inline-block;
-    vertical-align: baseline; 
-    
+    vertical-align: baseline;
+
     /* ie 7*/
     *display: inline;
-    *zoom:1;
+    *zoom: 1;
     *text-align: right;
+}
+
+img + em, a + em {
+    font-size: 0.7em;
 }

@@ -13,6 +13,8 @@ You can find the old website here: [http://alumni.cs.ucr.edu/~lewisc/index.html]
 
 ## My History
 
+Jobs, projects, tech stuff.
+
 ### Red9
 
 [![](http://redninesensor.com/img/red9-logo.png)](http://redninesensor.com/)

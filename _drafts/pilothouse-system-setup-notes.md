@@ -161,8 +161,87 @@ But, as it turns out, ubilinux will broadcast it's name so we can more easily ss
 ssh root@ubilinux
 ```
 
+# Getting mraa working
+
+I couldn't get the npm version working. It wouldn't compile. So, here's the process for building mraa from scratch. Resources
+ - [Sparkfun tutorial](https://learn.sparkfun.com/tutorials/installing-libmraa-on-ubilinux-for-edison)
+ - [SWIG Build instructions](http://www.swig.org/Doc3.0/Preface.html)
+ - [Nodejs Debian Backport](https://github.com/joyent/node/wiki/backports.debian.org)
+
+
+The problem is that nodejs-dev isn't available for the standard ubilinux distribution.
+
+```
+# Add debian backport as an option
+echo "deb http://http.debian.net/debian wheezy-backports main" | sudo tee /etc/apt/sources.list.d/backports.list
+
+# Update nodejs to use the latest version
+sudo apt-get remove nodejs
+sudo rm -rf /usr/lib/node_modules
+sudo apt-get -t wheezy-backports install nodejs-legacy nodejs-dev
+
+
+# But it doesn't include NPM, so we need that too.
+sudo apt-get install curl
+curl -L --insecure https://www.npmjs.org/install.sh | sudo bash
+
+# And get some useful packages
+sudo npm install -g bower grunt-cli nodemon
+
+# Prepare dependencies for the main build
+sudo apt-get install libpcre3-dev cmake python-dev
+
+# Build SWIG
+wget http://prdownloads.sourceforge.net/swig/swig-3.0.5.tar.gz
+tar -zxvf swig-3.0.5.tar.gz
+cd swig-3.0.5
+./configure
+make
+sudo make install
+cd ~
+
+# Build mraa
+git clone https://github.com/intel-iot-devkit/mraa.git
+mkdir mraa/build && cd $_
+cmake ..
+make
+sudo make install
+cd ~
+
+
+
+# Build from npm
+
+sudo ln -s /home/pilothouse/.node-gyp/0.10.36/src/ /usr/include/node
+
+# Build Node.js (about an hour)
+git clone https://github.com/joyent/node.git
+cd node
+git checkout v0.10.36
+./configure && make -j 3 && sudo make install
+
+
+
+
+```
+
+# Add SSH keys
+```
+cat ~/.ssh/id_rsa.pub | ssh core@ubilinux2 'touch ~/.ssh/authorized_keys'
+cat ~/.ssh/id_rsa.pub | ssh core@ubilinux2 'cat - >> ~/.ssh/authorized_keys'
+```
+
+
 
 # Can't access sudo
+
+First off, install it:
+```
+# apt-get install sudo
+# adduser core sudo
+```
+
+
 If you cut power to the Edison without doing a proper shutdown, you may get an error that says sudoers is read only. The solution is taken from [here](https://communities.intel.com/thread/58152):
 
 ```bash
