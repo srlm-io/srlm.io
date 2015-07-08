@@ -9,6 +9,7 @@ I've selected the Intel Edison as the embedded Linux processor of choice for thi
 
 The nearest competitor to the Edison is the RasberryPi2, which was released on February 2, 2015 at $35. The Intel Edison was released in September 2014, and costs about $85 depending on configuration.
 
+<!--endexcerpt-->
 
 ## Feature Comparison
 

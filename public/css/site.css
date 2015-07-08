@@ -41,3 +41,23 @@ h1, h2, h3, h4, h5 {
 img + em, a + em {
     font-size: 0.7em;
 }
+
+
+/* Taken from http://stackoverflow.com/a/5214204/2557842 */
+h2.readmore {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+h2.readmore span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+h2.readmore a {
+    color: #268bd2;
+}
+

@@ -9,7 +9,7 @@ Please take a look at the [live site](http://srlm.io)
 
 
 ## Notes
-To run use `jekyll serve --drafts`. You may need to `sudo gem install jekyll` first. The site will appear at [http://localhost:4000](http://localhost:4000), and you can develop drafts in the `_drafts` folder.
+To run use `jekyll serve --drafts --watch`. You may need to `sudo gem install jekyll` first. The site will appear at [http://localhost:4000](http://localhost:4000), and you can develop drafts in the `_drafts` folder.
 
 This site is based on the Poole template [here](https://github.com/poole/poole). Take a look there for markdown examples.
 

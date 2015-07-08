@@ -3,9 +3,9 @@ layout: post
 title: Experimenting With Magnetometer Calibration
 ---
 
-
 Recently I've started volunteering with [RoboSail](http://www.robosail.org/), a program to get high school students interested in technology and programming. They needed some tilt compensated compass code, so I volunteered to work on that. Here's what I found.
 
+<!--endexcerpt-->
 
 ### Background
 

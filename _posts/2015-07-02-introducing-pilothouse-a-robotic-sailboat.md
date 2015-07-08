@@ -24,7 +24,7 @@ Pilothouse has a number of awesome features, including:
 
 At this time, this project is just starting to get into autonomous control. Here's the first sail, with autonomous sail control and manual RC rudder.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Va_YkqsxY9U" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uy1_pqsoaeA" frameborder="0" allowfullscreen></iframe>
 
 As part of the Pilothouse project the base station displays all relevant boat state information, sent over WiFi. 
 
@@ -32,6 +32,8 @@ As part of the Pilothouse project the base station displays all relevant boat st
 *The boat transmits the current state over WiFi, which is received by a long range USB WiFi antenna on the laptop. No software besides a web browser is needed.*
 
 This project was inspired by my volunteer work with Diane at [RoboSail](http://www.robosail.org/), an awesome project to teach kids programming through robotic sailboats.
+
+<!--endexcerpt-->
  
 # Mechanical Overview
 
