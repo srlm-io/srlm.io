@@ -44,20 +44,19 @@ img + em, a + em {
 
 
 /* Taken from http://stackoverflow.com/a/5214204/2557842 */
-h2.readmore {
+h3.readmore {
     width: 100%;
     text-align: center;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #cccccc;
     line-height: 0.1em;
     margin: 10px 0 20px;
 }
 
-h2.readmore span {
-    background: #fff;
+h3.readmore span {
+    background: #ffffff;
     padding: 0 10px;
 }
 
-h2.readmore a {
-    color: #268bd2;
+h3.readmore a {
+    color: #666666;
 }
-
