@@ -1,5 +1,7 @@
 # Dependencies
 markdown:         redcarpet
+gems:             [jekyll-paginate]
+
 # Make redcarpet behave like GitHub Flavored Markdown
 # Taken from http://stackoverflow.com/a/16126840/2557842
 redcarpet:
@@ -18,12 +20,12 @@ paginate:         4
 baseurl:          /
 author:
   name:           Cody Lewis
-  url:            https://github.com/srlmproductions
+  url:            https://github.com/srlm-io
   email:          srlm@srlm.io
 
 # Custom vars
 version:          1.0.0
 github:
-  repo:           https://github.com/srlmproductions
+  repo:           https://github.com/srlm-io
 
 excerpt_separator: <!--endexcerpt-->

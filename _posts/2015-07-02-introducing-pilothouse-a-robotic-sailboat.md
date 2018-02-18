@@ -20,13 +20,13 @@ Pilothouse has a number of awesome features, including:
 4. Advanced sensors, including the latest GPS and MEMS.
 5. Potential for expansion into a fully autonomous ocean going science vessel.
 6. Javascript Node.js based control system.
-7. Open source software ([GitHub](https://github.com/srlmproductions/pilothouse)).
+7. Open source software ([GitHub](https://github.com/srlm-io/pilothouse)).
 
 At this time, this project is just starting to get into autonomous control. Here's the first sail, with autonomous sail control and manual RC rudder.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uy1_pqsoaeA" frameborder="0" allowfullscreen></iframe>
 
-As part of the Pilothouse project the base station displays all relevant boat state information, sent over WiFi. 
+As part of the Pilothouse project the base station displays all relevant boat state information, sent over WiFi.
 
 [![](/public/images/2015/7/2/base_station_with_boat_small.jpg)](/public/images/2015/7/2/base_station_with_boat.jpg)
 *The boat transmits the current state over WiFi, which is received by a long range USB WiFi antenna on the laptop. No software besides a web browser is needed.*
@@ -34,7 +34,7 @@ As part of the Pilothouse project the base station displays all relevant boat st
 This project was inspired by my volunteer work with Diane at [RoboSail](http://www.robosail.org/), an awesome project to teach kids programming through robotic sailboats.
 
 <!--endexcerpt-->
- 
+
 # Mechanical Overview
 
 [![](/public/images/2015/7/2/sailboat_show_all_small.jpg)](/public/images/2015/7/2/sailboat_show_all.jpg)
@@ -57,7 +57,7 @@ The sheeting system on the stock boat uses a witch that collects the jib sheet o
 ![](/public/images/2015/7/2/sheet_drum.jpg)
 *Image courtesy of Hitec RCD*
 
-My implementation essentially follows. Instead of pulleys, which are difficult to find at this small scale, I used steel rings. 
+My implementation essentially follows. Instead of pulleys, which are difficult to find at this small scale, I used steel rings.
 
 The two sheets require approximately 18in of travel from full in to full out. To get that kind of distance I mounted the rings an aluminum U channel, and mounted it so that it passes through the center bulkhead and into the bow of the ship.
 
@@ -105,10 +105,10 @@ Pilothouse uses a standard LSM9DS0 from ST, mounted on a [Sparkfun block](https:
 [![](/public/images/2015/7/2/wind_sensor_small.jpg)](/public/images/2015/7/2/wind_sensor.jpg)
 
 The wind sensor uses the [MA3 absolute rotary encoder](http://www.usdigital.com/products/encoders/absolute/rotary/shaft/ma3) from US Digital. This sensor outputs a PWM pulse whose width is proportional to the position of the encoder shaft. The main advantage of this sensor over a potentiometer is the ball bearings, with allow for sensing even the lightest of winds.
- 
-The only problem is that the Intel Edison doesn't have a PWM input, and there doesn't seem to be any I2C PWM input chips available. To overcome this I'm using a [Pro Micro Adruino](https://www.sparkfun.com/products/12640) to read the PWM and hang off the I2C bus. 
 
-For the wind vane itself I'm using a product from the Western Reserve Model Yacht Club ([link](http://www.orgsites.com/oh/western-reserve-model-yacht-club/Wind%20Indicator.pdf)) with the addition of a bit more surface area. 
+The only problem is that the Intel Edison doesn't have a PWM input, and there doesn't seem to be any I2C PWM input chips available. To overcome this I'm using a [Pro Micro Adruino](https://www.sparkfun.com/products/12640) to read the PWM and hang off the I2C bus.
+
+For the wind vane itself I'm using a product from the Western Reserve Model Yacht Club ([link](http://www.orgsites.com/oh/western-reserve-model-yacht-club/Wind%20Indicator.pdf)) with the addition of a bit more surface area.
 
 ## GPS
 
@@ -126,6 +126,6 @@ All data is streamed live over WiFi via web sockets. This enables a "fly by wire
 
 # Future
 
-Pilothouse is an ongoing project, and this is just the start. I'll be adding a better GUI with a map and graphs, long term data storage, environmental sensing, and fully autonmous sailing. All code can be found in the [GitHub repository](https://github.com/srlmproductions/pilothouse). 
+Pilothouse is an ongoing project, and this is just the start. I'll be adding a better GUI with a map and graphs, long term data storage, environmental sensing, and fully autonmous sailing. All code can be found in the [GitHub repository](https://github.com/srlm-io/pilothouse).
 
 [![](/public/images/2015/7/2/sailing_away_small.jpg)](/public/images/2015/7/2/sailing_away.jpg)

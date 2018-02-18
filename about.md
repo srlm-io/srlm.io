@@ -47,7 +47,7 @@ I graduated in 2012 with a degree in computer science from the University of Cal
 
 I avoid most social media, but there's a few technical sites that I like to hang around on:
 
-[GitHub](https://github.com/srlmproductions) |
+[GitHub](https://github.com/srlm-io) |
 [Stack Exchange](http://stackexchange.com/users/2927173/srlm) |
 [Parallax Forums](http://forums.parallax.com/member.php/53784-SRLM)
 

@@ -58,7 +58,7 @@ The navigation equations are very sensitive to accurate hard-iron settings. If t
 
 ### The code
 
-Overall, the code is fairly straight forward. You can copy it directly from AN4248. I've posted all of the code into a [gist](https://gist.github.com/srlmproductions/fafee8feed8bd5661266).
+Overall, the code is fairly straight forward. You can copy it directly from AN4248. I've posted all of the code into a [gist](https://gist.github.com/srlm-io/fafee8feed8bd5661266).
 
 The most interesting bit of code is the actual conversion, which is here:
 
@@ -66,12 +66,12 @@ The most interesting bit of code is the actual conversion, which is here:
 // Freescale solution
 roll = atan2(accl_y, accl_z);
 pitch = atan(-accl_x / (accl_y * sin(roll) + accl_z * cos(roll)));
- 
+
 float magn_fy_fs = magn_z * sin(roll) - magn_y*cos(roll);
 float magn_fx_fs = magn_x * cos(pitch) + magn_y * sin(pitch) * sin(roll) + magn_z * sin(pitch) * cos(roll);
- 
+
 yaw = atan2(magn_fy_fs, magn_fx_fs);
- 
+
 roll = roll * RAD_CONV;
 pitch = pitch * RAD_CONV;
 yaw = yaw * RAD_CONV;
@@ -83,15 +83,15 @@ As you can see this is directly from the Freescale app note. The only difference
 // Get a new sensor event
 sensors_event_t event_accl;
 sensors_event_t event_magn;
- 
+
 accl->getEvent(&event_accl);
 magn->getEvent(&event_magn);
- 
+
 // Signs choosen so that, when axis is down, the value is + 1g
 float accl_x = -event_accl.acceleration.x;
 float accl_y = event_accl.acceleration.y;
 float accl_z = event_accl.acceleration.z;
- 
+
 // Signs should be choosen so that, when the axis is down, the value is + positive.
 // But that doesn't seem to work ?...
 float magn_x = event_magn.magnetic.x - hardiron_x;
