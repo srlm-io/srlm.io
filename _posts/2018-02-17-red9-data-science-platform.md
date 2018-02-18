@@ -11,7 +11,7 @@ I want to share a story about three years of my life. Three years trying to crea
 
 ![SCAD mockup on surfboard](/public/images/2018/02/17/scad_mockup_on_surfboard_2.JPG)
 
-<!-- endexcerpt -->
+<!--endexcerpt-->
 
 In this post I'll share what we did, why we made the choices that we did, and why Red9 failed. This post is a combination of timeline and my personal experience, with all the bias that brings. I'll cover both the technical and the business side of Red9. Understanding the Possibilities When I joined Red9 in the summer of 2012 the company was a small group of people with an idea and a few prototypes. Mike and Mica, the founders, had seen the low cost MEMS accelerometers and gyroscopes hit the market, along with small integrated GPS modules. They figured that something interesting could be done with that hardware to measure athletic performance. We didn't really have a concrete sport in mind, or even a defined business plan at this point. Mike was the business guy, and Mica was the engineer. Also on the team was Mike's brother, Jeff, another business type.
 

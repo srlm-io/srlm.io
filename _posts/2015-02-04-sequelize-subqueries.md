@@ -211,7 +211,7 @@ var Customer = sequelize.define('Customer', {
                     CustomerId: this.id
                 },
                 attributes: [[
-                    sequelize.fn('SUM', sequelize.col('amount')), 
+                    sequelize.fn('SUM', sequelize.col('amount')),
                     'totalAmount'
                     ]],
                 group: ['CustomerId']
@@ -221,7 +221,7 @@ var Customer = sequelize.define('Customer', {
 });
 
  ...
- 
+
 .then(function () {
     return Customer.find({where: {id: 1}});
 })

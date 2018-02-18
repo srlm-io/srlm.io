@@ -1,11 +1,6 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 gems:             [jekyll-paginate]
-
-# Make redcarpet behave like GitHub Flavored Markdown
-# Taken from http://stackoverflow.com/a/16126840/2557842
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
 highlighter:      pygments
 
