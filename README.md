@@ -9,12 +9,9 @@ Please take a look at the [live site](http://srlm.io)
 
 
 ## Notes
-To run use
-```
-bundle exec jekyll serve --drafts --watch
-````
 
-You may need to
+
+To install, you'll need to
 
 ```
 sudo apt install ruby ruby-dev ruby-bundler zlib1g-dev
@@ -23,7 +20,12 @@ cd /path/to/repo
 bundle install --path vendor/bundle
 ```
 
-first. The site will appear at [http://localhost:4000](http://localhost:4000), and you can develop drafts in the `_drafts` folder.
+To run use
+```
+bundle exec jekyll serve --drafts --watch
+````
+
+The site will appear at [http://127.0.0.1:4000](http://127.0.0.1:4000), and you can develop drafts in the `_drafts` folder.
 
 This site is based on the Poole template [here](https://github.com/poole/poole). Take a look there for markdown examples.
 
