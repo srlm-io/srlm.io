@@ -7,27 +7,28 @@ title: About
 
 This is the personal website of Cody Lewis.
 
+I am a software engineer with a focus on data processing systems and product manufacturing.
 
-# My Skills
+**Expertise**
 
-
-I am a software engineer with a focus on product manufacturing and backend data systems. Throughout the years, I've worked across a number of different industries and roles, and developed key skills:
 * Software engineering
-* Project management
+* Cross-disciplinary project management
 * Automating workflows through applications
 * Data pipeline design and implementation
 * Deploying and administering cloud servers
 * Integrated tooling for code quality
-* Software architecture development
+* Software architecture
 * Hiring and interviewing
-* Hardware manufacturing principles
+* Hardware manufacturing
 * Embedded systems
 
-These are the major tools and frameworks that I've worked with in the past. The keyword soup:
-* **Languages**: Python, Javascript, HTML, CSS, Bash, C/C++, Java, Spin, PASM, Regex
+
+**Tools**
+
+* **Languages**: Python, Javascript, HTML, CSS, Bash, C/C++, Java, Spin, PASM, PBASIC, Regex
 * **Client Side**: Javascript, HTML, CSS, JQuery, Angular, D3
 * **Server Frameworks**: Node, Hapi.js, Flask, Django
-* **Infrastructure**: AWS (EC2, S3, ELB, IAM)
+* **Infrastructure**: AWS (EC2, S3, ELB, IAM, ECR, awscli)
 * **Databases**: PostgreSQL, Cassandra
 * **Hardware**: Parallax Propeller, RaspberryPi, Arduino
 * **Operating Systems**: Ubuntu, Archlinux, Yocto, Linux, Android
