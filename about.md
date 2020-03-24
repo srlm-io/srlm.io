@@ -76,9 +76,7 @@ You can find the old website here: [http://alumni.cs.ucr.edu/~lewisc/index.html]
 I avoid most social media, but there's a few technical sites that I used to hang around on:
 
 [GitHub](https://github.com/srlm-io) |
-[Stack Exchange](http://stackexchange.com/users/2927173/srlm) |
-[Parallax Forums](http://forums.parallax.com/member.php/53784-SRLM)
-
+[Stack Exchange](http://stackexchange.com/users/2927173/srlm)
 
 # Contact
 

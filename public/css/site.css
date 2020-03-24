@@ -28,15 +28,10 @@ h1, h2, h3, h4, h5 {
     *text-align: left;
 }
 
-.nav {
-    display: inline-block;
-    vertical-align: baseline;
-
-    /* ie 7*/
-    *display: inline;
-    *zoom: 1;
-    *text-align: right;
+.navbar-brand {
+    font-weight: bold;
 }
+
 
 img + em, a + em {
     font-size: 0.7em;
