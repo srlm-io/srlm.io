@@ -12,6 +12,8 @@ Over the past 6 months I've been working on developing an open source robotic sa
 
 The goal of Pilothouse is to make an open source robotic sailboat that can autonomously navigate and sail itself long distances, and to prove that this can be done using the latest web technology: Node.js.
 
+<!--endexcerpt-->
+
 Pilothouse has a number of awesome features, including:
 
 1. Robotic sailing, with 100% all natural renewable energy.
