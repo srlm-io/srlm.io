@@ -26,14 +26,14 @@ I am a software engineer with a focus on data processing systems and product man
 **Tools**
 
 * **Languages**: Python, Javascript, HTML, CSS, Bash, C/C++, Java, Spin, PASM, PBASIC, Regex
-* **Client Side**: Javascript, HTML, CSS, JQuery, Angular, D3
-* **Server Frameworks**: Node, Hapi.js, Flask, Django
+* **Client Side**: Javascript, HTML, CSS, JQuery, Angular, D3, Bootstrap
+* **Server Side**: Node, Hapi.js, Flask, Django, REST
 * **Infrastructure**: AWS (EC2, S3, ELB, IAM, ECR, awscli)
 * **Databases**: PostgreSQL, Cassandra
 * **Hardware**: Parallax Propeller, RaspberryPi, Arduino
 * **Operating Systems**: Ubuntu, Archlinux, Yocto, Linux, Android
 * **Keyboards**: Programmer Dvorak, QWERTY
-* **Other**: Docker, Vagrant, Ansible, Git, Github, JIRA, Jenkins, KiCAD
+* **Other**: Docker, Vagrant, Ansible, Git, Github, JIRA, Jenkins, KiCad, DevOps, CI/CD
 
 
 # My Work History
