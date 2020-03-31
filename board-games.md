@@ -31,6 +31,7 @@ These are games that we own and play.
 | ![](/public/images/board-games/wingspan.jpeg)                      | Wingspan                                  | Fun, but hard to teach                                                     |
 | ![](/public/images/board-games/skull-king.jpeg)                    | Skull King                                | Great group game                                                           |
 | ![](/public/images/board-games/bears-and-the-bees.jpeg)            | The Bears and the Bees                    |                                                                            |
+| ![](/public/images/board-games/dominion_and_intrigue.jpg)          | Dominion & Intrigue Big Box               |                                                                            |
 
 
 
@@ -50,7 +51,6 @@ These are games that I'd like to try and maybe buy.
 * Onitama (2 player, like chess)
 * Star Realms (figure out which expansion matrix option is most cost efficient)
 * Backgammon (get a nice set)
-* Dominion
 * XComm
 * Galaxy Trucker
 * Camel Up
