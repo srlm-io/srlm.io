@@ -55,14 +55,15 @@ This view shows the front and back of the SCAD device, Gamma (the third and fina
 
 A few years after I designed the board, I got the chance to run them through an x-ray machine. As it turns out, my soldering was pretty good, even in the hidden areas.
 
-![X ray of gamma board](/public/images/2018/02/17/solder_a.jpg) | ![X ray of gamma board](/public/images/2018/02/17/solder_b.jpg)
---- | ---
-![X ray of gamma board](/public/images/2018/02/17/solder_c.jpg) | ![X ray of gamma board](/public/images/2018/02/17/solder_d.jpg)
+| ![X ray of gamma board](/public/images/2018/02/17/solder_a.jpg) | ![X ray of gamma board](/public/images/2018/02/17/solder_b.jpg) |
+| --------------------------------------------------------------- | --------------------------------------------------------------- |
+| ![X ray of gamma board](/public/images/2018/02/17/solder_c.jpg) | ![X ray of gamma board](/public/images/2018/02/17/solder_d.jpg) |
 
 Since this board is so small and densely packed I added some "wings" to the PCB to aid in assembly by making the board bigger. Every square millimeter of the main board was covered in components, so using these wings allowed me to stencil paste onto the board and reflow without affecting the bottom side components. The wings are designed to snap off when assembly is complete.
 
-![SCAD gamma size comparison](/public/images/2018/02/17/scad_gamma_size_comparison_sm.jpg) | ![Gamma and beta size comparison](/public/images/2018/02/17/Gamma_Beta_Compare.jpg)
---- | ---
+| ![SCAD gamma size comparison](/public/images/2018/02/17/scad_gamma_size_comparison_sm.jpg) | ![Gamma and beta size comparison](/public/images/2018/02/17/Gamma_Beta_Compare.jpg) |
+| ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- |
+| The final generation prototype                                                             | Early prototype compared to final generation                                        |
 
 Some of the components that I spec'd out were rather small, so I had to design and have a stepped stainless steel stencil cut. This stencil allowed me to quickly populate all 300+ pads with solder paste.
 
@@ -70,8 +71,9 @@ Some of the components that I spec'd out were rather small, so I had to design a
 
 Here the stencil is down, ready to use.
 
-![Stencil up, board in place](/public/images/2018/02/17/stencil_up_board_in_place.JPG) | ![Stencil up, board out of place showing the component pocket](/public/images/2018/02/17/stencil_up_board_out_of_place.JPG)
---- | ---
+| ![Stencil up, board in place](/public/images/2018/02/17/stencil_up_board_in_place.JPG) | ![Stencil up, board out of place showing the component pocket](/public/images/2018/02/17/stencil_up_board_out_of_place.JPG) |
+| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+|                                                                                        |                                                                                                                             |
 
 Here the stencil is up, showing how the board was positioned underneath. I routed out a two level pocket in the MDF that provided a place for the populated bottom side components to fit, and a ledge that put the surface of the PCB flush with the MDF, which allowed the stencil to sit flat. I even included some of the ubiquitous toggle clamps to hold the stencil steady as I spread the solder paste.
 
@@ -220,9 +222,9 @@ For the marketing website, I took a one page teaser image developed by our marke
 
 Our business team (Ben, Jaysen, Mike, and Jeff) were hard at work developing pitch decks, kickstarter material, and everything else needed to get us funding. We even got a shared article in the LA Times, "[Techies who surf are stoked about Silicon Beach club](http://www.latimes.com/business/la-fi-silicon-beach-surfers-20150607-story.html)".
 
-![](/public/images/2018/02/17/slide_deck_0.png) | ![](/public/images/2018/02/17/slide_deck_1.png)
---- | ---
-![](/public/images/2018/02/17/slide_deck_2.png) | ![](/public/images/2018/02/17/slide_deck_3.png)
+| ![](/public/images/2018/02/17/slide_deck_0.png) | ![](/public/images/2018/02/17/slide_deck_1.png) |
+| ----------------------------------------------- | ----------------------------------------------- |
+| ![](/public/images/2018/02/17/slide_deck_2.png) | ![](/public/images/2018/02/17/slide_deck_3.png) |
 
 Through spring and into summer of 2015 fundraising continued unsuccessfully. It became more and more apparent that we were not going to get any VC money. They hardly wanted to talk to us. Was it because we were a 3 year old company without a track record? Was it because of a fatal flaw? I don't know, but it was hard to keep working as it became more and more apparent that we were not going to get funding.
 
