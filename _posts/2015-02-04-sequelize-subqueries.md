@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sequelize Association Subquery Examples
+tags: [sequelize, database, node.js]
 ---
 
 [Sequelieze](http://sequelizejs.com/) is a great tool for database ORM mapping in Node.js, but it can have a pretty steep learning curve. In this post we go over some useful patterns related to subqueries in SQL, and their Sequelize equivelents.

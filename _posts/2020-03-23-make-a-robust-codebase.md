@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Make a Robust Codebase
+tags: [software development, teamwork]
 ---
 
 Maintaining and managing a project that spans dozens of contributors and years of usage isn't simple. However, there are a few tips that can help make it easier. In this post, I examine my top four tips to make it easier to work with big projects. By following these tips, you'll have a codebase that is more robust to external shocks, easier to change, and just more fun to work with.

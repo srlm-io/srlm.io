@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Intel Edison Benchmarks
+tags: [edison, benchmark, embedded, linux]
 ---
 
 I've selected the Intel Edison as the embedded Linux processor of choice for this project. But how does it perform? Let's find out.
@@ -64,7 +65,7 @@ Raspberry pi times taken from [Adafruit](https://learn.adafruit.com/introducing-
 
 System   | Cores | Time (s)
 ---------|-------|----------
-Edison   | 1     | 118 
+Edison   | 1     | 118
 Edison   | 2     | 60
 PiB+     | 1     | 507
 Pi2      | 1     | 295

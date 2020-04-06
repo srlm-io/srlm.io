@@ -1,6 +1,7 @@
 ---
 layout: post
 title: OpenSCAD Thumbnailer for Gnome
+tags: [openscad, gnome, 3d, cad]
 ---
 
 ![OpenSCAD thumbnailer example](/public/images/2015/12/15/openscad_thumbnailer.png)

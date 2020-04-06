@@ -1,6 +1,7 @@
 ---
 layout: post
 title: JSON Configuration - Transforming through Merging and Patching
+tags: [json, configuration, hierarchy]
 ---
 
 ![json plus json catcher image](/public/images/2020/04/05/json-plus-json-catcher.png)

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: The Red9 Startup Story
+title: Startup Postmortem - The Red9 Story
+tags: [startup, experience, embedded, propeller, data science]
 ---
 
 ![Red9 Logo](/public/images/red9-logo.png)

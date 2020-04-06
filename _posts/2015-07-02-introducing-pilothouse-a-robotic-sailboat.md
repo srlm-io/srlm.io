@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Introducing Pilothouse - A Robotic Sailboat
+tags: [robotics, sailing, edison, linux]
 ---
-
-
-
 
 Over the past 6 months I've been working on developing an open source robotic sailboat called Pilothouse.
 

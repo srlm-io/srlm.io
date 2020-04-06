@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Experimenting With Magnetometer Calibration
+tags: [calibration, embedded, magnetometer, robotics]
 ---
 
 Recently I've started volunteering with [RoboSail](http://www.robosail.org/), a program to get high school students interested in technology and programming. They needed some tilt compensated compass code, so I volunteered to work on that. Here's what I found.
@@ -62,7 +63,7 @@ Overall, the code is fairly straight forward. You can copy it directly from AN42
 
 The most interesting bit of code is the actual conversion, which is here:
 
-{% highlight c++ %}
+```c++
 // Freescale solution
 roll = atan2(accl_y, accl_z);
 pitch = atan(-accl_x / (accl_y * sin(roll) + accl_z * cos(roll)));
@@ -75,11 +76,11 @@ yaw = atan2(magn_fy_fs, magn_fx_fs);
 roll = roll * RAD_CONV;
 pitch = pitch * RAD_CONV;
 yaw = yaw * RAD_CONV;
-{% endhighlight %}
+```
 
 As you can see this is directly from the Freescale app note. The only difference is the absence of hardiron calibration, which I moved to after we take the measurements:
 
-{% highlight c++ %}
+```c++
 // Get a new sensor event
 sensors_event_t event_accl;
 sensors_event_t event_magn;
@@ -97,7 +98,7 @@ float accl_z = event_accl.acceleration.z;
 float magn_x = event_magn.magnetic.x - hardiron_x;
 float magn_y = -event_magn.magnetic.y - hardiron_y;
 float magn_z = -event_magn.magnetic.z - hardiron_z;
-{% endhighlight %}
+```
 
 The only curious thing in here is the signs: I negate `accl_x`, `magn_y`, and `magn_z`. Why? Because that's what seemed to be needed in order to make the coordinates line up with a standard North-East-Down reference frame:
 
