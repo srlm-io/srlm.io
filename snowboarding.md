@@ -12,6 +12,8 @@ I'm a AASI Level 1 certified snowboarding instructor. I've been riding since abo
 
 # Biomechanic Notes
 
+Good form requires an awareness of your body.
+
 ## Jumps
 
 When doing jumps, be careful that your knees stay in line with your foot as you land. My knees tend to slide inwards, which after repeated landings can cause pain. Squats can help correct this tendency.

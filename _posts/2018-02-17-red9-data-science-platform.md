@@ -92,7 +92,7 @@ The second innovation, and for which I'm really proud, is the unit testing of th
 
 ![libpropeller unittester hardware](/public/images/2018/02/17/libpropeller_unit_tester.JPG)
 
-With libpropeller, I wrote a pretty comprehensive Propeller program to read seven sensors at 100Hz, record the data to an SD card, and respond to a Bluetooth API, all in 32k of memory with C++. The code now lives on in [GitHub](https://github.com/Red9/scad).
+With libpropeller, I wrote a pretty comprehensive Propeller program to read seven sensors at 100Hz, record the data to an SD card, and respond to a Bluetooth API, all in 32k of memory with C++. The code now lives on [GitHub](https://github.com/Red9/scad).
 
 After the first year with Red9, as I was wrapping up the Gamma design, we were settling into what could be done with the hardware and needed more definition for the company direction. Mike and Mica decided that we would focus on quantifying surfing. Surfing is an interesting sport, and at the time didn't have any devices to record motion through water and count your waves. As we discovered later, choosing surfing was one of the two company killing mistakes that we made.
 
