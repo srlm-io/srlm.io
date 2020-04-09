@@ -5,7 +5,7 @@ title: About
 
 ![](/public/avatar_small_icon.png)
 
-This is the personal website of Cody Lewis. My abbreviated experience is below; also check out [my resume in pdf form](/public/other/resume-2020-website.pdf).
+This is the personal website of Cody Lewis. My abbreviated experience is below; also check out [my resume in pdf form](/public/other/cody-lewis-resume-2020.pdf).
 
 I am a software engineer with a focus on data processing systems and product manufacturing.
 
