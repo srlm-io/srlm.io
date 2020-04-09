@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dockerfile Composition
-tags: [docker, hierarchy]
+tags: [docker, hierarchy, software architecture]
 ---
 
 Dockerfiles are great when you have one image that you need to generate. But what happens if you need to generate several images that are substantially similar, but differ in a few aspects? This post will talk about how to compose your Dockerfiles so that you can reduce complexity and duplication, but still have flexibility to generate multiple final images from a single project.

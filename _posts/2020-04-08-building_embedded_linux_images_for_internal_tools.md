@@ -4,7 +4,7 @@ title: Building Embedded Linux Images for Internal Tools
 tags: [linux, deployment, iot, bash, ansible, yocto]
 ---
 
-![](/public/images/2020/04/08/building-linux-header-image.png)
+![building linux header image](/public/images/2020/04/08/building-linux-header-image.png)
 
 Often when I'm developing software for distributed systems, I run into a situation where I have a small Python script that "just" needs to run on a Linux system. A laptop or RaspberryPi would be fine, but how do you go about setting everything up? You could just flash Raspbian onto an SD card, copy over the application script, and call it a day. But what if you need to make 10 of these? And then, in 3 months, do an update and build 5 more? Is it easy enough to train an intern to reproduce the setup and make more? Beyond a few devices, it makes sense to formalize the process of making the root file system. In this post I'll detail some methods to do that.
 
