@@ -4,7 +4,7 @@ title: My Programming Statistics
 tags: [software development, personal, git]
 ---
 
-![header image](public/images/2020/03/30/programming-statistics-header-image.png)
+![header image](/public/images/2020/03/30/programming-statistics-header-image.png)
 
 I've been contracting for most of the last year. As part of this, I've been keeping careful record of my hours and how much code I write. I thought it would be interesting to dig deep through the data and answer an age old question: how fast am I?
 

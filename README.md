@@ -29,6 +29,14 @@ The site will appear at [http://127.0.0.1:4000](http://127.0.0.1:4000), and you 
 
 This site is based on the Poole template [here](https://github.com/poole/poole). Take a look there for markdown examples.
 
+## Setup
+
+Enable git hooks to run:
+
+```bash
+git config --local core.hooksPath .githooks/
+```
+
 ## License
 
 Open sourced under the [MIT license](LICENSE.md).

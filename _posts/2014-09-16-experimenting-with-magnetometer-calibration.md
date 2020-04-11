@@ -38,7 +38,7 @@ These problems are displayed in the following image. The blimp on the right is r
 * hard-iron, to translate the blimp to the upper left
 * soft-iron, to transform the blimp shape into a sphere shape
 
-![magn before and after calibration](/public/images/2014/09/16/magn_calibration.png "(image from page 11 of AN4246)")
+![magn before and after calibration](/public/images/2014/09/16/magn_calibration.png) (image from page 11 of AN4246)
 
 
 Hard-iron is caused by static magnetic fields near the sensor such as permanent magnets. Hard-iron is constant in any orientation. Soft-iron is caused by earth's magnetic field being redirected by ferrous material near the sensor, and changes for different orientations.

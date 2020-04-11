@@ -108,7 +108,7 @@ The wind sensor uses the [MA3 absolute rotary encoder](http://www.usdigital.com/
 
 The only problem is that the Intel Edison doesn't have a PWM input, and there doesn't seem to be any I2C PWM input chips available. To overcome this I'm using a [Pro Micro Adruino](https://www.sparkfun.com/products/12640) to read the PWM and hang off the I2C bus.
 
-For the wind vane itself I'm using a product from the Western Reserve Model Yacht Club ([link](http://www.orgsites.com/oh/western-reserve-model-yacht-club/Wind%20Indicator.pdf)) with the addition of a bit more surface area.
+For the wind vane itself I'm using a product from the Western Reserve Model Yacht Club with the addition of a bit more surface area.
 
 ## GPS
 

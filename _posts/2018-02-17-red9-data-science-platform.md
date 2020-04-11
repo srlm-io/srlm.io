@@ -84,7 +84,7 @@ All PCB design files can be found on [GitHub](https://github.com/Red9/hellenic-b
 
 After building the devices we needed some software to actually record the data. The SCAD records the data in a compressed format at 150Hz or more (~20MB/hr) onto a standard microSD card of up to 32GB in size. It is charged at 500mA via a standard USB port and can run from 6 to 8 hours, depending on the installed battery. Data can be retrieved by inserting the microSD card into a PC or over the air using the native Android Bluetooth app I wrote.
 
-The software consisted of a main monitor and control program, and a bunch of classes for the different peripheral components. An open source library is very useful when it contains standalone, modularized components. With this in mind, I wrote [libpropeller](http://libpropeller.org), an early (the first?) C++ library for the Propeller.
+The software consisted of a main monitor and control program, and a bunch of classes for the different peripheral components. An open source library is very useful when it contains standalone, modularized components. With this in mind, I wrote [libpropeller](https://github.com/libpropeller/libpropeller), an early (the first?) C++ library for the Propeller.
 
 libpropeller had two groundbreaking features. The first was putting all code into C++ headers. Despite internet rumors, this actually _reduced_ code size and made it faster. Additionally, splitting code across two separate files as is the norm in C++ is really annoying to develop for.
 
