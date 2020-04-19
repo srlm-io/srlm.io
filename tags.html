@@ -1,0 +1,26 @@
+---
+layout: default
+title: Tags
+---
+
+<h1>Site Tags</h1>
+<p>All the tags used on this site, along with their posts.</p>
+<!-- Sort the tags. Annoying because liquid does not have a .keys() style function, so we need this hack -->
+<!-- tag extraction taken from https://www.codeofclimber.ru/2015/sorting-site-tags-in-jekyll/ -->
+
+{% capture site_tags %}
+    {% for tag in site.tags %}{{ tag | first | downcase }}
+        {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+{% endcapture %}
+{% assign all_tags = site_tags | split : ',' | sort %}
+
+{% for _tag in all_tags %}
+    {% assign tag = _tag | strip %}
+    <h2 id="{{ tag }}">{{ tag }} ({{ site.tags[tag] | size }})</h2>
+    <ul>
+    {% for post in site.tags[tag] %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+    </ul>
+{% endfor %}

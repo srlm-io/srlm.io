@@ -55,3 +55,9 @@ h3.readmore span {
 h3.readmore a {
     color: #666666;
 }
+
+a.tag-link {
+    /* Don't style the tag links, because it's distracting and they look better plain */
+    color: inherit;
+    text-decoration: inherit;
+}
