@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import os
 import re
+import subprocess
 import sys
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
@@ -22,28 +23,56 @@ source_dirs = [
 ]
 
 
-def check_web_link(link: str) -> bool:
+def check_web_link(link: str) -> None:
     try:
         requests.head(link)
-        return True
     except (requests.exceptions.ConnectionError, requests.exceptions.MissingSchema, requests.exceptions.InvalidSchema):
+        raise RuntimeError('Invalid web link')
+
+
+def check_local_target_file_is_tracked(link: str) -> bool:
+    try:
+        subprocess.run('git ls-files --error-unmatch {}'.format(link.strip('/')),
+                       shell=True,
+                       check=True,
+                       stdout=subprocess.PIPE,
+                       stderr=subprocess.PIPE
+                       )
+        return True
+    except subprocess.CalledProcessError:
         return False
 
 
-def check_local_link(link: str) -> bool:
-    return link[0] == '/' and os.path.isfile('.' + link)
+def check_local_link(link: str) -> None:
+    if not os.path.isfile('.' + link):
+        raise RuntimeError('Not a file')
+    # It's important that the track check is last to avoid injection security issues
+    if not check_local_target_file_is_tracked(link):
+        raise RuntimeError('File not tracked in git')
 
 
-def check_mail_link(link: str) -> bool:
-    return bool(re.match(r'^mailto:.*@.*$', link))
+def check_mail_link(link: str) -> None:
+    if not bool(re.match(r'^mailto:.*@.*$', link)):
+        raise RuntimeError('Invalid mailto link')
 
 
 def check_link(data: Tuple[Path, str]) -> bool:
     path, link = data
-    result = check_local_link(link) or check_mail_link(link) or check_web_link(link)
-    if result is False:
-        print('{}: {}'.format(str(path), link))
-    return result
+    # Returns true if positively identified as a valid link
+    # Raises exception with issue if fails check
+    try:
+        if link.startswith('/'):
+            check_local_link(link)
+        elif link.startswith('mailto'):
+            check_mail_link(link)
+        elif link.startswith('http'):
+            check_web_link(link)
+        else:
+            raise RuntimeError('Unknown link')
+        return True
+    except RuntimeError as e:
+        print('{}: {} [{}]'.format(str(path), str(e), link))
+        return False
 
 
 def get_links_from_markdown(path: Path) -> Any:
