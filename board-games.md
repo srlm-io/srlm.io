@@ -32,26 +32,27 @@ These are games that we own and play.
 | ![](/public/images/board-games/skull-king.jpeg)                    | Skull King                                | Great group game                                                           |
 | ![](/public/images/board-games/bears-and-the-bees.jpeg)            | The Bears and the Bees                    |                                                                            |
 | ![](/public/images/board-games/dominion_and_intrigue.jpg)          | Dominion & Intrigue Big Box               |                                                                            |
-
+| ![](/public/images/board-games/rummikub.jpg)                       | Rummikub                                  |                                                                            |
+| ![](/public/images/board-games/istanbul_big_box.jpg)               | Istanbul Big Box                          |                                                                            |
 
 
 ## Board Game TODO List
 
 These are games that I'd like to try and maybe buy.
 
-* Puerto Rico
+* 7 Wonders: Babel Expansion
 * Agricola
-* Istanbul (fun! on my list)
-* Terraforming Mars
-* Saint Petersburg (fun! on my list)
-* The Castles of Burgundy
-* Seafarers of Catan
+* Backgammon (get a nice set)
+* Camel Up
+* Century Spice Road (and the expansions/mixes)
+* Galaxy Trucker
 * Hanabi card game
 * Memoir' 44 (good for 2 players)
 * Onitama (2 player, like chess)
+* Puerto Rico
+* Saint Petersburg (fun! Like Age of Empires)
+* Seafarers of Catan
 * Star Realms (figure out which expansion matrix option is most cost efficient)
-* Backgammon (get a nice set)
+* Terraforming Mars
+* The Castles of Burgundy
 * XComm
-* Galaxy Trucker
-* Camel Up
-* 7 Wonders: Babel Expansion

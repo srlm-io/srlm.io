@@ -1,6 +1,6 @@
 ## Live Site
 
-Please take a look at the [live site](http://srlm.io)
+Please take a look at the [live site](https://srlm.io)
 
 ## Author
 
