@@ -34,6 +34,7 @@ These are games that we own and play.
 | ![](/public/images/board-games/dominion_and_intrigue.jpg)          | Dominion & Intrigue Big Box               |                                                                            |
 | ![](/public/images/board-games/rummikub.jpg)                       | Rummikub                                  |                                                                            |
 | ![](/public/images/board-games/istanbul_big_box.jpg)               | Istanbul Big Box                          |                                                                            |
+| ![](/public/images/board-games/camel-up.jpg)                       | Camel Up                                  |                                                                            |
 
 
 ## Board Game TODO List
@@ -43,7 +44,6 @@ These are games that I'd like to try and maybe buy.
 * 7 Wonders: Babel Expansion
 * Agricola
 * Backgammon (get a nice set)
-* Camel Up
 * Century Spice Road (and the expansions/mixes)
 * Galaxy Trucker
 * Hanabi card game
