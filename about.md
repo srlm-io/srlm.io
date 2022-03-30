@@ -28,35 +28,37 @@ I am a software engineer with a focus on data processing systems and product man
 * **Languages**: Python, Javascript, HTML, CSS, Bash, C/C++, Java, Spin, PASM, PBASIC, Regex
 * **Client Side**: Javascript, HTML, CSS, JQuery, Angular, D3, Bootstrap
 * **Server Side**: Node, Hapi.js, Flask, Django, REST
-* **Infrastructure**: AWS (EC2, S3, ELB, IAM, ECR, awscli)
+* **Infrastructure**: AWS (EC2, S3, ELB, IAM, ECR, awscli), Terraform, Kubernetes (k8s)
 * **Databases**: PostgreSQL, Cassandra
 * **Hardware**: Parallax Propeller, RaspberryPi, Arduino
 * **Operating Systems**: Ubuntu, Archlinux, Yocto, Linux, Android
 * **Keyboards**: Programmer Dvorak, QWERTY
-* **Other**: Docker, Vagrant, Ansible, Git, Github, JIRA, Jenkins, KiCad, DevOps, CI/CD
+* **Other**: Docker, Vagrant, Ansible, Git, Github, JIRA, CircleCI, Jenkins, KiCad, DevOps, CI/CD
 
 
 # My Work History
 
 Jobs, projects, tech stuff.
 
+---
 
+[![](/public/images/shaper-logo.png)](https://www.shapertools.com/en-us/)
 
-[![](/public/images/formlabs-logo.png)](http://formlabs.com/)
+I currently work for Shaper Tools, maker of the hand held robotic CNC. At Shaper I work on factory software and other internal software tooling.
 
-I currently contract with Formlabs, after working there full time for four years.
-
-At Formlabs, I maintained all the factory software that allowed production of our 3D printing related products
-
-
-
+---
 
 [![](/public/images/bbmr-logo.png)](https://www.bigbearmountainresort.com/)
 
 During the winter, I teach snowboarding part time. I'm a Level 1 certified instructor with the American Association of Snowboard Instructors.
 
+---
 
+[![](/public/images/formlabs-logo.png)](http://formlabs.com/)
 
+At Formlabs, I maintained all the factory software that allowed production of our 3D printing related products
+
+---
 
 [![](/public/images/red9-logo.png)](https://redninesensor.com/)
 
