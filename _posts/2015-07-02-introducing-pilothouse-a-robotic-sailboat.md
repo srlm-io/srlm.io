@@ -84,7 +84,7 @@ The hatch is a piece of Lexan held to the deck with four stainless steel screws.
 
 # Electronics
 
-The brains of the system is the [Intel Edison](https://en.wikipedia.org/wiki/Intel_Edison), a dual Atom core processor made for embedded systems. It's running a variant of Ubuntu built for the Edison called [Ubilinux](http://www.emutexlabs.com/ubilinux).
+The brains of the system is the [Intel Edison](https://en.wikipedia.org/wiki/Intel_Edison), a dual Atom core processor made for embedded systems. It's running a variant of Ubuntu built for the Edison called [Ubilinux](https://emutex.com/products/ubilinux).
 
 Sparkfun has come up with a really cool ["block" system](https://learn.sparkfun.com/tutorials/general-guide-to-sparkfun-blocks-for-intel-edison) for the Edison. They've designed a number of common periperal blocks that can be stacked much like Arduino shields. For Pilothouse, I've used the following stack:
 

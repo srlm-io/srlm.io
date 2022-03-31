@@ -102,7 +102,8 @@ float magn_z = -event_magn.magnetic.z - hardiron_z;
 
 The only curious thing in here is the signs: I negate `accl_x`, `magn_y`, and `magn_z`. Why? Because that's what seemed to be needed in order to make the coordinates line up with a standard North-East-Down reference frame:
 
-![NED reference](http://www.chrobotics.com/wp-content/uploads/2012/11/Inertial-Frame.png)
+![NED reference](/public/images/2014/09/16/Inertial-Frame.png)
+_Image courtesy of http://www.chrobotics.com/_
 
 #### Conclusion
 
